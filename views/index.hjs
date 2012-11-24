@@ -18,14 +18,12 @@
     </div>
 
     <div class="main row-fluid">
-      <div class="left span2 hidden-phone">
+      <div class="left span8"></div>
+      <div class="right span4 hidden-phone">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
-      </div>
-      <div class="mid span8"></div>
-      <div class="right span2 hidden-phone">
         <div></div>
         <div></div>
         <div></div>
