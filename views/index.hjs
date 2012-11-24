@@ -2,10 +2,35 @@
 <html>
   <head>
     <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+    <script type="text/javascript" src="js/script.js" ></script>
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <div class="header">
+      <div class="header-inner">
+        <a href="/" class="logo">bild.vestlife.se</a>
+      </div>
+    </div>
+
+    <div class="main row-fluid">
+      <div class="left span2 hidden-phone">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="mid span8"></div>
+      <div class="right span2 hidden-phone">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,5 +1,59 @@
+html
+  height: 100%
+
 body
-  padding: 50px
+  background: url(/img/whitey.png)
+  box-sizing: border-box
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  height: 100%
+  padding: 60px 15px 15px 15px
+
 a
   color: #00B7FF
+
+.header
+  position: fixed
+  right: 0
+  left: 0
+  z-index: 1030
+  margin-bottom: 0
+  border-bottom: 1px solid #999
+  box-shadow: 0px 0px 3px #777
+  top: 0
+  overflow: visible
+  color: #777
+  .header-inner
+    border-width: 0 0 1px
+    background-color: #FAFAFA
+    background-image: -webkit-linear-gradient(top, white, #F2F2F2)
+    background-image: linear-gradient(to bottom, white, #F2F2F2)
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1)
+    border: 1px solid #D4D4D4;
+    .logo
+      display: block
+      float: left
+      padding: 10px 20px 10px
+      font-size: 20px
+      font-weight: 200
+      color: #777
+      text-shadow: 0 1px 0 white
+
+  .header-inner::before, .header-inner::after
+    display: table;
+    line-height: 0;
+    content: "";
+  .header-inner::after
+    clear: both
+
+.main
+  box-sizing: border-box
+  height: 100%
+  div
+    background-color: black
+    box-sizing: border-box
+    height: 100%
+  .left div, .right div
+    background-color: white
+    box-sizing: border-box
+    height: 20%
+    margin-top: 5%
